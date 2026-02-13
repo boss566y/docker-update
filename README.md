@@ -1,2 +1,2 @@
 # docker-update
-Docker Stack Update Script
+Simple Docker stack update script
