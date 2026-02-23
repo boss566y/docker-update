@@ -1,7 +1,6 @@
 #!/bin/bash
 
 stacks_locations = ~/docker/
-
 cd $stacks_locations
 
 docker_folders=$(ls -d */)
@@ -9,7 +8,6 @@ docker_folders=$(ls -d */)
 docker_update() {
 	docker compose pull && docker compose down && docker compose up -d
 }
-
 
 for folder in $docker_folders; do
 	# RESETS
